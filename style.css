@@ -1,0 +1,37 @@
+html{
+    font-size: 10px;
+    background: url('Background/drum.jpg') bottom center;
+    background-size: cover;
+}
+body,html{
+    margin:0;
+    padding: 0;
+     
+}
+.keys{
+    display: flex;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex:1;
+}
+.key{
+    border: 0.4rem solid black;
+    margin:5px;
+    border-radius: 0.5rem;
+    font-size: 30px;
+    background: rgba(0,0,0,0.4);
+    text-shadow: 0 0 .5rem black;
+    text-align: center;
+    transition:all 0.4s;
+}
+kbd{
+    display: block;
+}
+.playing{
+    transform: scale(1.1);
+    border-color: yellow;
+    box-shadow: 0 0 1rem #ffc600;
+}
